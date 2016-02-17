@@ -11,7 +11,7 @@ cage = ["piedra","papel","tijera"]
 while True:
 	eleccion = raw_input("\nSelecciona una opcion [piedra, papel o tijera] : ")
 	if eleccion not in cage:
-		print "No hagas trampa!"
+		print "\nNo hagas trampa!"
 		continue
 
 	pc = random.choice(cage)
