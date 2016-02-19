@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*-coding:utf-8-*-
 
+from time import sleep
 
 numero_contactos = input("\n\n\n\nCuantos contactos desea agregar?: ")
 nombre_archivo = raw_input("\nQue nombre desea darle a su archivo?: ")
@@ -27,6 +28,18 @@ for contador in range (numero_contactos):
 
 	apellidom = raw_input("\nApellido Materno: ")
 	archivo.write ('\nApellido Materno: ' + apellidom)
+
+	telefono = raw_input("\nTel: ")
+	archivo.write ('\nTel: ' + telefono)
+
+	Email = raw_input("\nEmail: ")
+	archivo.write ('\nEmail: ' + Email)
+
+
+print "\n\n Guardando archivo "
+for cont in range (3):
+	print ". "
+	sleep(0.5)
 
 archivo.close()
 
