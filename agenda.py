@@ -36,11 +36,9 @@ for contador in range (numero_contactos):
 	archivo.write ('\nEmail: ' + Email)
 
 
-print "\n\n Guardando archivo "
+print "\n\nGuardando archivo "
 for cont in range (3):
 	print ". "
 	sleep(0.5)
 
 archivo.close()
-
-
