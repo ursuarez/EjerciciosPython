@@ -7,8 +7,9 @@ nombre_archivo = raw_input("\nQue nombre desea darle a su archivo?: ")
 
 nombre = nombre_archivo + ".txt"
 archivo = open(nombre,"w")
-# archivo.write ("Hola mundo")
-# archivo.close()
+
+
+
 
 sus = "-" *35
 
