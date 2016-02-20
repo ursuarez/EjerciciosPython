@@ -14,31 +14,31 @@ sus = "-" * 35
 
 for contador in range(numero_contactos):
     num_contador = contador + 1
-	print "\n", sus, "\n"
-	archivo.write('\n\n' + sus + '\n\n')
+    print "\n", sus, "\n"
+    archivo.write('\n\n' + sus + '\n\n')
 
-	print "Contacto #%d : \n" % num_contador
-	archivo.write('Contacto # ' + str(num_contador) + '\n')
+    print "Contacto #%d : \n" % num_contador
+    archivo.write('Contacto # ' + str(num_contador) + '\n')
 
-	nombre = raw_input("\nNombre: ")
-	archivo.write('\nNombre: ' + nombre)
+    nombre = raw_input("\nNombre: ")
+    archivo.write('\nNombre: ' + nombre)
 
-	apellidop = raw_input("\nApellido Paterno: ")
-	archivo.write('\nApellido Paterno: ' + apellidop)
+    apellidop = raw_input("\nApellido Paterno: ")
+    archivo.write('\nApellido Paterno: ' + apellidop)
 
-	apellidom = raw_input("\nApellido Materno: ")
-	archivo.write('\nApellido Materno: ' + apellidom)
+    apellidom = raw_input("\nApellido Materno: ")
+    archivo.write('\nApellido Materno: ' + apellidom)
 
-	telefono = raw_input("\nTel: ")
-	archivo.write('\nTel: ' + telefono)
+    telefono = raw_input("\nTel: ")
+    archivo.write('\nTel: ' + telefono)
 
-	Email = raw_input("\nEmail: ")
-	archivo.write('\nEmail: ' + Email)
+    Email = raw_input("\nEmail: ")
+    archivo.write('\nEmail: ' + Email)
 
 
 print "\n\nGuardando archivo "
+
 for cont in range(3):
-	print ". "
-    sleep(0.5)
-    
+	print ". " 
+	sleep(0.5)
 archivo.close()
